@@ -11,3 +11,12 @@ h2 {
 .introduction{
     font-size: 1.2em;
 } 
+.item-list .item{
+    display: inline-block;
+    margin:0 10px;
+}
+figure {
+    display: table;
+    width: 60px; /* minimum width */
+    *width: auto; /* for IE7 and below */
+}
